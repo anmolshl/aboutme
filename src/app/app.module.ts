@@ -6,7 +6,7 @@ import {UnderConstructionComponent} from './components/under.construction/under.
 import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'home'},
+  {path: '', redirectTo: 'home', pathMatch : 'full'},
   {path: 'home', component: UnderConstructionComponent}
 ];
 
