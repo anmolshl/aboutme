@@ -7,10 +7,13 @@ import {AfterViewInit, Component, ElementRef} from '@angular/core';
 })
 export class UnderConstructionComponent implements AfterViewInit {
   title = 'Under Construction!';
+  underConstructionImage: string;
 
-  constructor(private elementRef: ElementRef) { }
+  constructor(private elementRef: ElementRef) {
+    this.underConstructionImage = './assets/under_construction.png';
+  }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#8E2AD2';
   }
 
