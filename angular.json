@@ -23,8 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/app/components/under.construction/under.construction.css"
+              "src/styles.css"
             ],
             "scripts": []
           },
