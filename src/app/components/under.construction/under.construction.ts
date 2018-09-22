@@ -14,7 +14,6 @@ export class UnderConstructionComponent implements AfterViewInit {
   }
 
   ngAfterViewInit() {
-    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#8E2AD2';
   }
 
 }
