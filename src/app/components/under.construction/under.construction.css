@@ -1,5 +1,5 @@
 body {
-  width: 100wh;
+  width: auto;
   height: 100vh;
   color: #fff;
   background: linear-gradient(-45deg, #EE7752, gold, aqua, greenyellow);
