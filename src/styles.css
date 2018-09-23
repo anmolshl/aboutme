@@ -46,7 +46,7 @@ div.construction-back{
 }
 
 a.fade-load-a {
-  opacity: 0;
+  -prefix-animation-fill-mode: both;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
   -ms-animation: fadein 2s; /* Internet Explorer */
@@ -56,7 +56,7 @@ a.fade-load-a {
 }
 
 img.fade-load-img {
-  opacity: 0;
+  -prefix-animation-fill-mode: both;
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 5s; /* Firefox < 16 */
   -ms-animation: fadein 5s; /* Internet Explorer */
@@ -95,6 +95,7 @@ img.fade-load-img {
 }
 
 a.greet {
+  opacity: 0;
   -webkit-animation: fadeinout 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadeinout 2s; /* Firefox < 16 */
   -ms-animation: fadeinout 2s; /* Internet Explorer */
