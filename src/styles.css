@@ -95,7 +95,7 @@ img.fade-load-img {
 }
 
 a.greet {
-  opacity: 0;
+  animation-fill-mode: both;
   -webkit-animation: fadeinout 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadeinout 2s; /* Firefox < 16 */
   -ms-animation: fadeinout 2s; /* Internet Explorer */
