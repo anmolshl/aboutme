@@ -59,6 +59,7 @@ img.fade-load-img {
   -ms-animation: fadein 5s; /* Internet Explorer */
   -o-animation: fadein 5s; /* Opera < 12.1 */
   animation: fadein 5s;
+  animation-delay: 3s;
 }
 
 @keyframes fadein {
@@ -89,3 +90,47 @@ img.fade-load-img {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+
+a.greet {
+  -webkit-animation: fadeinout 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinout 2s; /* Firefox < 16 */
+  -ms-animation: fadeinout 2s; /* Internet Explorer */
+  -o-animation: fadeinout 2s; /* Opera < 12.1 */
+  animation: fadeinout 2s;
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% {opacity: 0}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% {opacity: 0}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% {opacity: 0}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% {opacity: 0}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% {opacity: 0}
+}
+
+
