@@ -14,6 +14,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
+    AppComponent,
     UnderConstructionComponent,
     HomePageComponent
   ],
@@ -22,6 +23,6 @@ const routes: Routes = [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [UnderConstructionComponent, HomePageComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
