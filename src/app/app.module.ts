@@ -7,9 +7,9 @@ import {RouterModule, Routes} from '@angular/router';
 import {HomePageComponent} from './components/home.page/home.page';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/underconstruction', pathMatch: 'full'},
-  {path: 'home', component: HomePageComponent},
-  {path: 'underconstruction', component: UnderConstructionComponent}
+  {path: '', redirectTo: '/app-under-construction', pathMatch: 'full'},
+  {path: 'app-home', component: HomePageComponent},
+  {path: 'app-under-construction', component: UnderConstructionComponent}
 ];
 
 @NgModule({
