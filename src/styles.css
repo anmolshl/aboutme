@@ -146,11 +146,13 @@ ul.mainnav{
 }
 
 a.navbrand {
+  vertical-align: middle;
+  padding-left: 3%;
   font-family: 'Ubuntu','sans-serif';
-  color: whitesmoke;
+  color: darkslategray;
   font-size: 20px;
   text-decoration: none;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 
 a.navbrand:hover {
