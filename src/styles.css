@@ -139,4 +139,20 @@ a.greet {
   100% {opacity: 0}
 }
 
+ul.mainnav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+a.navbrand {
+  font-family: 'Ubuntu','sans-serif';
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+
+a.navbrand:hover {
+  color: dimgray;
+}
