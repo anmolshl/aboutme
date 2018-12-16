@@ -1,7 +1,5 @@
 div.construction-back{
-  overflow: hidden;
-  top:0;
-  height: 130vh;
+  height: 100vh;
   width: auto;
   color: #fff;
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -11,27 +9,8 @@ div.construction-back{
   animation: Gradient 15s ease infinite;
 }
 
-div.nav-bk{
-  z-index: 100;
-  position: fixed;
-  top:0;
-  width: 100%;
-  color: #fff;
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 15s ease infinite;
-  -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite;
-  align-items: flex-start;
-}
-
 li .navLine{
-  position: relative;
-  border: medium none;
-  display: block;
-  /*left: 0;*/
-  margin: 0;
-  /*position: absolute;*/
+  display: inline;
 }
 
 @-webkit-keyframes Gradient {
@@ -171,7 +150,7 @@ ul.mainnav{
 }
 
 a.navbrand {
-  position: relative;
+  position: absolute;
   left: 1.5%;
   top: 1%;
   font-family: 'Ubuntu','sans-serif';
@@ -179,25 +158,6 @@ a.navbrand {
   font-size: 20px;
   text-decoration: none;
   transition: all 0.5s ease;
-}
-
-td.navTab{
-  padding-top: 10px;
-}
-
-a.navsub{
-  position: relative;
-  left: 5%;
-  top: 10%;
-  font-family: 'Ubuntu','sans-serif';
-  color: darkslategray;
-  font-size: 16px;
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
-
-a.navsub:hover {
-  color: lightgray;
 }
 
 a.navbrand:hover {
