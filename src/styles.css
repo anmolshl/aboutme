@@ -12,6 +12,7 @@ div.construction-back{
 }
 
 div.nav-bk{
+  opacity: 0.75;
   z-index: 100;
   position: fixed;
   top:0;
@@ -23,7 +24,7 @@ div.nav-bk{
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
   align-items: flex-start;*/
-  background: transparent;
+  background: black;
   overflow: hidden;
 }
 
@@ -146,6 +147,7 @@ a.greet1 {
 
 a.greet2 {
   opacity: 0;
+  overflow: hidden;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
   -ms-animation: fadein 2s; /* Internet Explorer */
@@ -211,21 +213,22 @@ td.navTab{
 }
 
 a.navsub{
+  opacity: 2.0;
   position: relative;
   left: 5%;
   top: 10%;
   font-family: 'Ubuntu','sans-serif';
-  color: whitesmoke;
+  color: white;
   font-size: 16px;
   text-decoration: none;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 a.navsub:hover {
-  color: lightgray;
+  color: dimgray;
 }
 
 a.navbrand:hover {
-  color: lightgray;
+  color: dimgray;
 }
 
