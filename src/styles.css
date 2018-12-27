@@ -1,5 +1,7 @@
 div.construction-back{
-  height: 100vh;
+  overflow: hidden;
+  top:0;
+  height: 130vh;
   width: auto;
   color: #fff;
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -7,6 +9,31 @@ div.construction-back{
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+}
+
+div.nav-bk{
+  z-index: 100;
+  position: fixed;
+  top:0;
+  width: 100%;
+  /*color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  align-items: flex-start;*/
+  background: transparent;
+  overflow: hidden;
+}
+
+li .navLine{
+  position: relative;
+  border: medium none;
+  display: block;
+  /*left: 0;*/
+  margin: 0;
+  /*position: absolute;*/
 }
 
 @-webkit-keyframes Gradient {
@@ -53,7 +80,7 @@ a.fade-load-a {
   -o-animation: fadein 2s; /* Opera < 12.1 */
   animation: fadein 2s;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 
 img.fade-load-img {
@@ -64,7 +91,7 @@ img.fade-load-img {
   -o-animation: fadein 2s; /* Opera < 12.1 */
   animation: fadein 2s;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 
 @keyframes fadein {
@@ -103,6 +130,29 @@ a.greet {
   -ms-animation: fadeinout 2s; /* Internet Explorer */
   -o-animation: fadeinout 2s; /* Opera < 12.1 */
   animation: fadeinout 2s;
+  animation-delay: 2s;
+}
+
+a.greet1 {
+  opacity: 0;
+  -webkit-animation: fadeinout 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinout 2s; /* Firefox < 16 */
+  -ms-animation: fadeinout 2s; /* Internet Explorer */
+  -o-animation: fadeinout 2s; /* Opera < 12.1 */
+  animation: fadeinout 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+a.greet2 {
+  opacity: 0;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
 }
 
 @keyframes fadeinout {
@@ -146,7 +196,7 @@ ul.mainnav{
 }
 
 a.navbrand {
-  position: absolute;
+  position: relative;
   left: 1.5%;
   top: 1%;
   font-family: 'Ubuntu','sans-serif';
@@ -156,6 +206,26 @@ a.navbrand {
   transition: all 0.5s ease;
 }
 
+td.navTab{
+  padding-top: 10px;
+}
+
+a.navsub{
+  position: relative;
+  left: 5%;
+  top: 10%;
+  font-family: 'Ubuntu','sans-serif';
+  color: whitesmoke;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+a.navsub:hover {
+  color: lightgray;
+}
+
 a.navbrand:hover {
   color: lightgray;
 }
+
